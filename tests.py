@@ -1,7 +1,6 @@
 
 from purchase_analyzer import *
 
-
 def test_read_valid_lines():
     purchases = read_purchases('badfile.txt')
 
